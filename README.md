@@ -1,2 +1,3 @@
 # simple-starter
-basic starter (webpack, sass, babel)
+
+basic starter (webpack configs for sass and es2015+)
