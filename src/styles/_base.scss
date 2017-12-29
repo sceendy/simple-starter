@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+/* BASE */
+
+:root {
+  --main-font: 'Nunito', sans-serif;
+  --green: #5EC79E;
+}
+
+body {
+  border-top: 10px solid var(--green);
+  font-family: var(--main-font);
+  font-size: 14px;
+}
