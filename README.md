@@ -12,4 +12,4 @@ basic starter (webpack configs for sass and es2015+)
 
 `yarn build:prod` to build a the distribution folder
 
-Open up the dist/index.html page in your browser.
+`yarn:serve`
