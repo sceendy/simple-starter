@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const env = process.env.NODE_ENV ? process.env.NODE_ENV : 'dev';
 
-module.exports  = {
+module.exports = {
   entry: './src/js/index',
   output: {
     filename: '[name].[hash].js',
@@ -12,7 +12,10 @@ module.exports  = {
   },
   devtool: env === 'prod' ? false : 'source-map',
   devServer: {
-    contentBase: './dist'
+    contentBase: './dist',
+    open: true,
+    inline: true,
+    historyApiFallback: true
   },
   module: {
     rules: [

@@ -6,7 +6,7 @@
   "author": "<sceendy@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open --inline --content-base . --history-api-fallback",
+    "start": "webpack-dev-server",
     "build": "NODE_ENV=prod webpack --config webpack.prod.config.js"
   },
   "devDependencies": {
@@ -23,5 +23,8 @@
     "uglifyjs-webpack-plugin": "^1.1.5",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
   }
 }
