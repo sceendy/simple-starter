@@ -1,6 +1,6 @@
 {
   "name": "simple-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/sceendy/simple-starter.git",
   "author": "<sceendy@gmail.com>",
@@ -26,6 +26,7 @@
     "webpack-dev-server": "^2.9.7"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "image-webpack-loader": "^4.1.0"
   }
 }
