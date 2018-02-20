@@ -4,7 +4,7 @@
 
 :root {
   --main-font: 'Nunito', sans-serif;
-  --green: #5EC79E;
+  --green: #06A08B;
 }
 
 body {
@@ -16,7 +16,9 @@ body {
 
 p { color: #666; }
 
+img { max-width: 100%; }
+
 .container {
   margin: 0 auto;
-  max-width: 40rem;
+  max-width: 60vw;
 }
