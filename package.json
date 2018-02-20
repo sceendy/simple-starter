@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "express": "^4.16.2",
+    "file-loader": "^1.1.8",
     "image-webpack-loader": "^4.1.0"
   }
 }
