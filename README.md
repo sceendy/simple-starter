@@ -4,7 +4,7 @@ basic starter (webpack configs for sass and es2015+)
 
 ## get started
 
-*Note: You probably want to read my [blog post about this starter](https://www.sceendy.com/blog/2017-12-11-setup-webpack/).*
+*Note: You probably want to read my [blog post about this starter](https://sceendy.com/blog/2017/12-11-setup-webpack/).*
 
 `yarn init`
 
